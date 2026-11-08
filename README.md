@@ -8,7 +8,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Mentioned in Awesome Awesome Awesome" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-API-Collection-Templates-Blueprints/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-API-Collection-Templates-Blueprints?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Collection-Templates-Blueprints/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-API-Collection-Templates-Blueprints?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-API-Collection-Templates-Blueprints/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-API-Collection-Templates-Blueprints?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
@@ -63,22 +63,22 @@ The table below catalogs proprietary and hosted platforms offering collection te
 
 ## 💻 Open-Source Solutions
 
-A curated collection of open-source API specifications, mocking frameworks, testing suites, and documentation engines. Ranked in descending order by **GitHub Star Count**. ⭐
+A curated collection of open-source API specifications, mocking frameworks, testing suites, and documentation engines. Ranked in descending order by **GitHub Stars_Count**. ⭐
 
-| Open-Source Project | 📝 Description & Blueprint Features | 🌟 GitHub Stars |
+| Open-Source Project | 📝 Description & Blueprint Features | 🌟 GitHub_Stars |
 | :--- | :--- | :--- |
-| [**Hoppscotch**](https://github.com/hoppscotch/hoppscotch) | Lightweight, web-based open-source API development ecosystem and Postman alternative supporting REST, GraphQL, and WebSocket collections. | [![GitHub Stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers) |
-| [**Kong Insomnia**](https://github.com/Kong/insomnia) | Open-source desktop API client for GraphQL, REST, WebSockets, and gRPC with design and debugging workflows. | [![GitHub Stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers) |
-| [**OpenAPI Specification**](https://github.com/OAI/OpenAPI-Specification) | The vendor-neutral, industry-standard API description format for RESTful APIs across the world. | [![GitHub Stars](https://img.shields.io/github/stars/OAI/OpenAPI-Specification?style=social&color=white)](https://github.com/OAI/OpenAPI-Specification/stargazers) |
-| [**Swagger UI**](https://github.com/swagger-api/swagger-ui) | High-performance HTML, JavaScript, and CSS asset collection that dynamically generates documentation from OpenAPI definitions. | [![GitHub Stars](https://img.shields.io/github/stars/swagger-api/swagger-ui?style=social&color=white)](https://github.com/swagger-api/swagger-ui/stargazers) |
-| [**OpenAPI Generator**](https://github.com/OpenAPITools/openapi-generator) | Code generator supporting generation of API client SDKs, server stubs, documentation, and configuration templates from OpenAPI specs (50+ languages). | [![GitHub Stars](https://img.shields.io/github/stars/OpenAPITools/openapi-generator?style=social&color=white)](https://github.com/OpenAPITools/openapi-generator/stargazers) |
-| [**Redoc**](https://github.com/Redocly/redoc) | Declarative, responsive OpenAPI/Swagger documentation renderer with customizable layout blueprints. | [![GitHub Stars](https://img.shields.io/github/stars/Redocly/redoc?style=social&color=white)](https://github.com/Redocly/redoc/stargazers) |
-| [**Scalar**](https://github.com/scalar/scalar) | Modern, interactive API documentation platform and REST client featuring OpenAPI integration and theme templates. | [![GitHub Stars](https://img.shields.io/github/stars/scalar/scalar?style=social&color=white)](https://github.com/scalar/scalar/stargazers) |
-| [**API Blueprint**](https://github.com/apiaryio/api-blueprint) | Powerful, human-readable Markdown-based specification language for writing API descriptions and blueprint architectures. | [![GitHub Stars](https://img.shields.io/github/stars/apiaryio/api-blueprint?style=social&color=white)](https://github.com/apiaryio/api-blueprint/stargazers) |
-| [**Mockoon**](https://github.com/mockoon/mockoon) | Complete local mock server application providing environment templates, rule-based routes, and regex responses. | [![GitHub Stars](https://img.shields.io/github/stars/mockoon/mockoon?style=social&color=white)](https://github.com/mockoon/mockoon/stargazers) |
-| [**RAML Specification**](https://github.com/raml-org/raml-spec) | RESTful API Modeling Language (RAML) specification allowing structured YAML descriptions of practical APIs. | [![GitHub Stars](https://img.shields.io/github/stars/raml-org/raml-spec?style=social&color=white)](https://github.com/raml-org/raml-spec/stargazers) |
-| [**Spectral**](https://github.com/stoplightio/spectral) | Flexible JSON/YAML linter for OpenAPI and AsyncAPI blueprints with custom ruleset and styling templates. | [![GitHub Stars](https://img.shields.io/github/stars/stoplightio/spectral?style=social&color=white)](https://github.com/stoplightio/spectral/stargazers) |
-| [**Microcks**](https://github.com/microcks/microcks) | Open-source Kubernetes-native mock response and contract testing framework supporting OpenAPI, Postman, and gRPC template schemas. | [![GitHub Stars](https://img.shields.io/github/stars/microcks/microcks?style=social&color=white)](https://github.com/microcks/microcks/stargazers) |
+| [**Hoppscotch**](https://github.com/hoppscotch/hoppscotch) | Lightweight, web-based open-source API development ecosystem and Postman alternative supporting REST, GraphQL, and WebSocket collections. | [![GitHub_Stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers) |
+| [**Kong Insomnia**](https://github.com/Kong/insomnia) | Open-source desktop API client for GraphQL, REST, WebSockets, and gRPC with design and debugging workflows. | [![GitHub_Stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers) |
+| [**OpenAPI Specification**](https://github.com/OAI/OpenAPI-Specification) | The vendor-neutral, industry-standard API description format for RESTful APIs across the world. | [![GitHub_Stars](https://img.shields.io/github/stars/OAI/OpenAPI-Specification?style=social&color=white)](https://github.com/OAI/OpenAPI-Specification/stargazers) |
+| [**Swagger UI**](https://github.com/swagger-api/swagger-ui) | High-performance HTML, JavaScript, and CSS asset collection that dynamically generates documentation from OpenAPI definitions. | [![GitHub_Stars](https://img.shields.io/github/stars/swagger-api/swagger-ui?style=social&color=white)](https://github.com/swagger-api/swagger-ui/stargazers) |
+| [**OpenAPI Generator**](https://github.com/OpenAPITools/openapi-generator) | Code generator supporting generation of API client SDKs, server stubs, documentation, and configuration templates from OpenAPI specs (50+ languages). | [![GitHub_Stars](https://img.shields.io/github/stars/OpenAPITools/openapi-generator?style=social&color=white)](https://github.com/OpenAPITools/openapi-generator/stargazers) |
+| [**Redoc**](https://github.com/Redocly/redoc) | Declarative, responsive OpenAPI/Swagger documentation renderer with customizable layout blueprints. | [![GitHub_Stars](https://img.shields.io/github/stars/Redocly/redoc?style=social&color=white)](https://github.com/Redocly/redoc/stargazers) |
+| [**Scalar**](https://github.com/scalar/scalar) | Modern, interactive API documentation platform and REST client featuring OpenAPI integration and theme templates. | [![GitHub_Stars](https://img.shields.io/github/stars/scalar/scalar?style=social&color=white)](https://github.com/scalar/scalar/stargazers) |
+| [**API Blueprint**](https://github.com/apiaryio/api-blueprint) | Powerful, human-readable Markdown-based specification language for writing API descriptions and blueprint architectures. | [![GitHub_Stars](https://img.shields.io/github/stars/apiaryio/api-blueprint?style=social&color=white)](https://github.com/apiaryio/api-blueprint/stargazers) |
+| [**Mockoon**](https://github.com/mockoon/mockoon) | Complete local mock server application providing environment templates, rule-based routes, and regex responses. | [![GitHub_Stars](https://img.shields.io/github/stars/mockoon/mockoon?style=social&color=white)](https://github.com/mockoon/mockoon/stargazers) |
+| [**RAML Specification**](https://github.com/raml-org/raml-spec) | RESTful API Modeling Language (RAML) specification allowing structured YAML descriptions of practical APIs. | [![GitHub_Stars](https://img.shields.io/github/stars/raml-org/raml-spec?style=social&color=white)](https://github.com/raml-org/raml-spec/stargazers) |
+| [**Spectral**](https://github.com/stoplightio/spectral) | Flexible JSON/YAML linter for OpenAPI and AsyncAPI blueprints with custom ruleset and styling templates. | [![GitHub_Stars](https://img.shields.io/github/stars/stoplightio/spectral?style=social&color=white)](https://github.com/stoplightio/spectral/stargazers) |
+| [**Microcks**](https://github.com/microcks/microcks) | Open-source Kubernetes-native mock response and contract testing framework supporting OpenAPI, Postman, and gRPC template schemas. | [![GitHub_Stars](https://img.shields.io/github/stars/microcks/microcks?style=social&color=white)](https://github.com/microcks/microcks/stargazers) |
 
 ---
 
@@ -106,7 +106,7 @@ Contributions, new blueprints, and template additions are always welcome! ✨
 
 1. 🍴 Fork this repository.
 2. 🌿 Create a descriptive feature branch: `git checkout -b add-new-template`.
-3. 📝 Add your entry ensuring accurate pricing/star badges and following the established table structure.
+3. 📝 Add your entry ensuring accurate pricing/Stars_Badges and following the established table structure.
 4. 🚀 Open a Pull Request with a clear description of your additions.
 
 ---
