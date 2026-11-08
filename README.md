@@ -1,36 +1,57 @@
-# Awesome API Collection Templates & Blueprints [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
-> A curated collection of API templates, specifications, collection blueprints, design schemas, and development tooling across leading SaaS platforms and top-tier open-source projects.
+<img src="./assets/banner.svg" alt="Awesome API Collection Templates & Blueprints" width="100%" />
 
-An authoritative directory for API architects, developers, and platform engineers seeking pre-built collection templates, API specification blueprints (OpenAPI, RAML, API Blueprint), mock templates, interactive API docs, and developer experience (DX) tooling.
+# 🚀 Awesome API Collection Templates & Blueprints
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Mentioned in Awesome Awesome Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Collection-Templates-Blueprints/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-API-Collection-Templates-Blueprints?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Collection-Templates-Blueprints/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-API-Collection-Templates-Blueprints?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+<p align="center">
+  <strong>🌟 A curated collection of API templates, specifications, collection blueprints, design schemas, and developer tooling across leading SaaS platforms and top-tier open-source projects.</strong>
+</p>
+
+</div>
 
 ---
 
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source Solutions](#open-source-solutions)
-- [Contributing](#contributing)
-- [License](#license)
+An authoritative, SEO-optimized directory for API architects, developers, and platform engineers seeking pre-built collection templates, API specification blueprints (OpenAPI, RAML, API Blueprint), mock templates, interactive API docs, and developer experience (DX) tooling.
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
 
-The global API management and developer tooling market is estimated at **$7.7B – $9.7B in 2024–2025**, projected to surpass **$18B+ by 2029** at a compound annual growth rate (CAGR) exceeding 18%. 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source Solutions](#-open-source-solutions)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global API management and developer tooling market is estimated at **$7.7B – $9.7B in 2024–2025**, projected to surpass **$18B+ by 2029** at a compound annual growth rate (CAGR) exceeding 18%. 📈
 
 The sector exhibits a **hybrid market structure**:
-* **Enterprise Infrastructure & Gateways:** Highly **concentrated** and dominated by cloud hyperscalers and legacy enterprise integration giants (Google Cloud Apigee, AWS API Gateway, Microsoft Azure API Management, IBM, MuleSoft).
-* **API Design, Collections, Mocking & Tooling:** Moderately to heavily **fragmented**, with specialized product-led platforms (Postman, SmartBear SwaggerHub, Kong Insomnia, ReadMe) competing alongside high-growth open-source tools (Hoppscotch, Scalar, Mockoon, Spectral) catering to decentralized API-first developer workflows.
+* 🏢 **Enterprise Infrastructure & Gateways:** Highly **concentrated** and dominated by cloud hyperscalers and legacy enterprise integration giants (Google Cloud Apigee, AWS API Gateway, Microsoft Azure API Management, IBM, MuleSoft).
+* 🛠️ **API Design, Collections, Mocking & Tooling:** Moderately to heavily **fragmented**, with specialized product-led platforms (Postman, SmartBear SwaggerHub, Kong Insomnia, ReadMe) competing alongside high-growth open-source tools (Hoppscotch, Scalar, Mockoon, Spectral) catering to decentralized API-first developer workflows.
 
 ---
 
-## SaaS & Hosted Platforms
+## ☁️ SaaS & Hosted Platforms
 
-The table below catalogs proprietary and hosted platforms offering collection templates, API design hubs, and blueprint tooling. The list is sorted in descending order by **Company Size (Valuation / Revenue)**.
+The table below catalogs proprietary and hosted platforms offering collection templates, API design hubs, and blueprint tooling. The list is sorted in descending order by **Company Size (Valuation / Revenue)**. 🏢
 
-| SaaS Product | Description & Template Features | Company Size (Valuation / ARR) | Starting Tier Pricing | Free Tier / Trial Limits |
+| SaaS Product | 📝 Description & Template Features | 💰 Company Size (Valuation / ARR) | 🏷️ Starting Tier Pricing | 🎁 Free Tier / Trial Limits |
 | :--- | :--- | :--- | :--- | :--- |
 | [**Postman**](https://www.postman.com/) | API platform providing pre-built workspace templates, collection runners, and mock servers. | **$5.6B Valuation** (~$313M ARR) | **$19/user/mo** (Team plan, billed annually) | **Free Forever**: Restricted strictly to 1 solo user (no shared workspaces/collaboration); includes unlimited collection runs and mock server requests. |
 | [**Kong Insomnia**](https://insomnia.rest/) | API client and design tool with Git sync, collection workspaces, and Konnect cloud integration. | **$2.0B Valuation** (Kong Inc., $100M+ ARR) | **$10/user/mo** (Pro plan, billed annually) | **Free Forever (Essentials)**: 1 user, up to 3 collaborators on Git Sync projects, unlimited local projects, and 1,000 mock requests/mo; 14-day free trial on enterprise features. |
@@ -40,11 +61,11 @@ The table below catalogs proprietary and hosted platforms offering collection te
 
 ---
 
-## Open-Source Solutions
+## 💻 Open-Source Solutions
 
-A curated collection of open-source API specifications, mocking frameworks, testing suites, and documentation engines. Ranked in descending order by **GitHub Star Count**.
+A curated collection of open-source API specifications, mocking frameworks, testing suites, and documentation engines. Ranked in descending order by **GitHub Star Count**. ⭐
 
-| Open-Source Project | Description & Blueprint Features | GitHub Stars |
+| Open-Source Project | 📝 Description & Blueprint Features | 🌟 GitHub Stars |
 | :--- | :--- | :--- |
 | [**Hoppscotch**](https://github.com/hoppscotch/hoppscotch) | Lightweight, web-based open-source API development ecosystem and Postman alternative supporting REST, GraphQL, and WebSocket collections. | [![GitHub Stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers) |
 | [**Kong Insomnia**](https://github.com/Kong/insomnia) | Open-source desktop API client for GraphQL, REST, WebSockets, and gRPC with design and debugging workflows. | [![GitHub Stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers) |
@@ -61,17 +82,35 @@ A curated collection of open-source API specifications, mocking frameworks, test
 
 ---
 
-## Contributing
+## 💖 Support & Sponsorship
 
-Contributions are welcome! Please follow these steps:
+Thank you so much for exploring and using this curated directory! If you find this project valuable, please consider supporting its ongoing maintenance and growth:
 
-1. Fork this repository.
-2. Create a descriptive branch: `git checkout -b add-my-template`.
-3. Add your entry ensuring accurate pricing/star badges and following the existing format.
-4. Open a Pull Request with a clear summary of your changes.
+- ⭐ **Star this repository** to show your appreciation and help more developers discover it!
+- 🍴 **Fork and share** it with your developer community, peers, and engineering teams.
+- ☕ **Buy a coffee / Sponsor**: Support further open-source development directly via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support keeps this directory active, accurate, and up-to-date! 🙌
 
 ---
 
-## License
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-API-Collection-Templates-Blueprints&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-API-Collection-Templates-Blueprints&type=date&legend=top-left)
+
+---
+
+## 🤝 Contributing
+
+Contributions, new blueprints, and template additions are always welcome! ✨
+
+1. 🍴 Fork this repository.
+2. 🌿 Create a descriptive feature branch: `git checkout -b add-new-template`.
+3. 📝 Add your entry ensuring accurate pricing/star badges and following the established table structure.
+4. 🚀 Open a Pull Request with a clear description of your additions.
+
+---
+
+## 📜 License
 
 Distributed under the [MIT License](LICENSE).

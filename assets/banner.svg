@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#080c14" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85" />
+    </linearGradient>
+
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.0" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.7" stroke-opacity="0.3" />
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.25; transform: scale(1); }
+        50% { opacity: 0.55; transform: scale(1.08); }
+      }
+      @keyframes floatSlow1 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-10px) rotate(1deg); }
+      }
+      @keyframes floatSlow2 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(12px) rotate(-1deg); }
+      }
+      @keyframes dashStream {
+        0% { stroke-dashoffset: 100; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes shimmerBadge {
+        0%, 100% { opacity: 0.8; }
+        50% { opacity: 1; filter: drop-shadow(0 0 6px rgba(56, 189, 248, 0.6)); }
+      }
+      .bg-orb1 {
+        animation: pulseGlow 8s ease-in-out infinite;
+        transform-origin: 200px 100px;
+      }
+      .bg-orb2 {
+        animation: pulseGlow 10s ease-in-out infinite alternate;
+        transform-origin: 1000px 300px;
+      }
+      .float-card-1 {
+        animation: floatSlow1 6s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .float-card-2 {
+        animation: floatSlow2 7s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .data-wire {
+        stroke-dasharray: 8 6;
+        animation: dashStream 20s linear infinite;
+      }
+      .shimmer-pill {
+        animation: shimmerBadge 4s ease-in-out infinite;
+      }
+      .font-sans {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- Dynamic Glowing Orbs in Background -->
+  <circle class="bg-orb1" cx="220" cy="120" r="180" fill="#6366f1" opacity="0.3" filter="url(#glow)" />
+  <circle class="bg-orb2" cx="980" cy="280" r="210" fill="#06b6d4" opacity="0.25" filter="url(#glow)" />
+  <circle cx="600" cy="200" r="260" fill="url(#accentGlow)" filter="url(#glow)" />
+
+  <!-- Animated Data Flow Connections (Behind Text) -->
+  <g opacity="0.45">
+    <path class="data-wire" d="M 50 200 C 300 80, 450 320, 700 200 S 1050 80, 1150 200" fill="none" stroke="#60a5fa" stroke-width="2" />
+    <path class="data-wire" d="M 80 340 C 350 380, 500 40, 850 160 S 1000 360, 1120 300" fill="none" stroke="#a78bfa" stroke-width="1.5" />
+  </g>
+
+  <!-- Ambient Floating Graphic Elements (Lower Corners, Non-Obtrusive) -->
+  <g class="float-card-1" opacity="0.85">
+    <rect x="70" y="45" width="160" height="42" rx="8" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.5" />
+    <circle cx="92" cy="66" r="5" fill="#38bdf8" />
+    <text x="110" y="71" fill="#94a3b8" font-size="13" font-weight="600" class="font-sans">OpenAPI 3.1</text>
+  </g>
+
+  <g class="float-card-2" opacity="0.85">
+    <rect x="970" y="45" width="160" height="42" rx="8" fill="url(#cardGrad)" stroke="#a855f7" stroke-width="1.2" stroke-opacity="0.5" />
+    <circle cx="992" cy="66" r="5" fill="#a855f7" />
+    <text x="1010" y="71" fill="#94a3b8" font-size="13" font-weight="600" class="font-sans">Postman Blueprints</text>
+  </g>
+
+  <!-- Dynamic Pills Row (Bottom Background/Midground) -->
+  <g class="shimmer-pill" transform="translate(260, 315)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="140" height="34" rx="17" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" />
+    <text x="70" y="22" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle" class="font-sans">🚀 SPECIFICATIONS</text>
+
+    <!-- Pill 2 -->
+    <rect x="160" y="0" width="160" height="34" rx="17" fill="#1e293b" stroke="#818cf8" stroke-width="1.2" />
+    <text x="240" y="22" fill="#a5b4fc" font-size="12" font-weight="700" text-anchor="middle" class="font-sans">📦 COLLECTIONS</text>
+
+    <!-- Pill 3 -->
+    <rect x="340" y="0" width="160" height="34" rx="17" fill="#1e293b" stroke="#c084fc" stroke-width="1.2" />
+    <text x="420" y="22" fill="#e879f9" font-size="12" font-weight="700" text-anchor="middle" class="font-sans">🎭 MOCK SCHEMAS</text>
+
+    <!-- Pill 4 -->
+    <rect x="520" y="0" width="160" height="34" rx="17" fill="#1e293b" stroke="#34d399" stroke-width="1.2" />
+    <text x="600" y="22" fill="#6ee7b7" font-size="12" font-weight="700" text-anchor="middle" class="font-sans">⚡ DX TOOLING</text>
+  </g>
+
+  <!-- Foreground Title and Subtitle - Positioned high and crisp, strictly unobstructed -->
+  <!-- Top Badge Label -->
+  <g transform="translate(600, 115)">
+    <rect x="-140" y="-18" width="280" height="30" rx="15" fill="#1e293b" stroke="#6366f1" stroke-width="1.5" />
+    <text x="0" y="2" fill="#a5b4fc" font-size="11.5" font-weight="700" letter-spacing="2" text-anchor="middle" class="font-sans">⚡ CURATED DEVELOPER DIRECTORY</text>
+  </g>
+
+  <!-- Main Hero Title -->
+  <text x="600" y="195" text-anchor="middle" class="font-sans" font-size="44" font-weight="900" letter-spacing="-0.5" fill="url(#textGrad)" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.8))">
+    Awesome API Collections &amp; Blueprints
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="245" text-anchor="middle" class="font-sans" font-size="17" font-weight="500" fill="#cbd5e1" letter-spacing="0.2" filter="drop-shadow(0 2px 8px rgba(0,0,0,0.9))">
+    Standardized API Schemas • Collection Blueprints • Mock Servers • DevTools Ecosystem
+  </text>
+  <text x="600" y="272" text-anchor="middle" class="font-sans" font-size="13.5" font-weight="400" fill="#94a3b8" letter-spacing="0.5">
+    Featuring OpenAPI, SwaggerHub, Postman, ReadMe, Speakeasy, Hoppscotch &amp; Insomnia
+  </text>
+</svg>
